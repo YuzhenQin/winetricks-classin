@@ -29,3 +29,7 @@ sudo apt-get install -y wine winetricks
 wget https://yuzhenqin.github.io/winetricks-classin/classin.verb
 winetricks --verbose ./classin.verb
 rm ./classin.verb
+
+# 设置 alias
+echo "alias classin \"~/.wine/drive_c/Program\ Files\ \(x86\)/ClassIn/ClassIn.exe\"" >> ~/.bashrc
+source ~/.bashrc
