@@ -5,3 +5,8 @@ Use winetricks to run classin
 ```bash
 curl https://yuzhenqin.github.io/winetricks-classin/install.sh | bash
 ```
+
+## Usage
+```bash
+classin
+```
