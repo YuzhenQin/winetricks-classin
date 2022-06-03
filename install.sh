@@ -27,5 +27,5 @@ sudo apt-get install -y wine winetricks
 
 # 安装 classin
 wget https://yuzhenqin.github.io/winetricks-classin/classin.verb
-sudo winetricks --isolate --verbose ./classin.verb
+winetricks --verbose ./classin.verb
 rm ./classin.verb
